@@ -4,6 +4,8 @@ from tkinter import PhotoImage
 root = tk.Tk()
 root.title("Моє вікно")
 
+root.geometry("300x200")
+
 icon = PhotoImage(file="icon.png")
 root.iconphoto(False, icon)
 
